@@ -1,0 +1,126 @@
+body {
+  text-align: center;
+  margin: 0;
+  font-family: 'Akaya Kanadaka', cursive;
+  font-size: 2.5rem;
+}
+hr{
+  border: 1px solid #0F1021;
+}
+/**********classes-TOP*********/
+.top-container {
+  background-color: #0F1021;
+  position: relative;
+  margin: 0;
+  padding-top: 200px;
+  padding-bottom: 150px;
+}
+
+.logo-simples {
+  position: absolute;
+  margin-left: -300px;
+  margin-top: -50px;
+  left: 50%;
+  width: 600px;
+}
+
+.logo-neon {
+  display: none;
+  position: absolute;
+  margin-left: -300px;
+  margin-top: -50px;
+  left: 50%;
+  width: 600px;
+  z-index: 99;
+}
+
+.change-logo:hover .logo-neon {
+  display: inline;
+}
+
+.titulo-esteticista {
+  margin: 550px auto 0 auto;
+  font-family: 'Charmonman', cursive;
+  font-size: 5.625rem;
+  color: #D01257;
+}
+
+/**********classes-INFO*********/
+.middle-container {
+  background-color: #FFCEE4;
+  position: relative;
+  margin: 0;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.profile {
+  width: 300px;
+}
+
+.patricia-souto {
+  font-family: 'Charmonman', cursive;
+  font-size: 2.5rem;
+}
+
+.texto-historia {
+  margin: auto 200px 150px 200px;
+}
+.texto-especialidade{
+  margin-bottom: 150px;
+}
+
+.texto-microblading {
+  width: 50%;
+  margin: 200px auto 100px;
+}
+
+.img-eyebrow {
+  width: 200px;
+  margin-left: 10px;
+  float: left;
+}
+
+.texto-o-que {
+  margin: 200px 0 auto 0;
+}
+
+.sobrancelhas-info {
+  width: 70%;
+  margin: 100px 100px auto 100px;
+  text-align: left;
+  line-height: 2;
+}
+
+.sobrancelhas-img {
+  float: left;
+}
+
+.labios-info {
+  width: 70%;
+  margin: 100px 0 100px 500px;
+  text-align: right;
+  line-height: 2;
+}
+
+.labios-img {
+  width: 250px;
+  float: right;
+}
+
+.olhos-info {
+  width: 70%;
+  margin: 100px 100px auto 100px;
+  text-align: left;
+  line-height: 2;
+}
+
+.olhos-img {
+  width: 250px;
+  float: left;
+}
+.contact-me{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+/*************classes-END**********/
