@@ -8,41 +8,100 @@ hr{
   border: 1px solid #0F1021;
 }
 /**********classes-TOP*********/
-.top-container {
-  background-color: #0F1021;
-  position: relative;
-  margin: 0;
-  padding-top: 200px;
-  padding-bottom: 150px;
-}
 
-.logo-simples {
+.top-container {
+  background-image: url(https://esplendorvisual.com/wp-content/uploads/Curso-Microblading-825x510.jpg);
+  position: relative;
+  width: 100%;
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.color-filter{
+  width: 100%;
+  height: 100%;
+  background: #0F1021;
+  opacity: .7;
   position: absolute;
-  margin-left: -300px;
-  margin-top: -50px;
-  left: 50%;
-  width: 600px;
+
+}
+.change-logo {
+  z-index: 2;
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  background: #0F1021;
+  display: flex;
+}
+.first-icon{
+  position: relative;
+  display: flex;
+  width: 100px;
+  height: 100px;
+  background: #0F1021;
+}
+.logo-simples {
+  position: relative;
+  display: flex;
+  width: 100px;
+  height: 100px;
 }
 
 .logo-neon {
   display: none;
   position: absolute;
-  margin-left: -300px;
-  margin-top: -50px;
-  left: 50%;
-  width: 600px;
-  z-index: 99;
+  z-index: 3;
+  width: 100px;
+  height: 100px;
 }
 
-.change-logo:hover .logo-neon {
-  display: inline;
+.first-icon:hover .logo-neon {
+  position: absolute;
+  display: flex;
 }
+
+.second-icon{
+  position: relative;
+  display: flex;
+  width: 80px;
+  height: 80px;
+  background: #0F1021;
+  top: 10px;
+}
+.eyebrow_icon {
+  position: relative;
+  display: flex;
+  width: 80px;
+  height: 80px;
+}
+
+.eyebrow_neon {
+  display: none;
+  position: absolute;
+  z-index: 3;
+  width: 80px;
+  height: 80px;
+}
+
+.second-icon:hover .eyebrow_neon {
+  position: absolute;
+  display: flex;
+}
+
+
+
+
 
 .titulo-esteticista {
-  margin: 550px auto 0 auto;
+  margin: 600px auto 0 auto;
   font-family: 'Charmonman', cursive;
   font-size: 5.625rem;
   color: #D01257;
+  display: flex;
+  z-index: 1;
 }
 
 /**********classes-INFO*********/
